@@ -14,6 +14,7 @@
 		D83AF1D41FA8A0DA00D00EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83AF1D21FA8A0DA00D00EC2 /* LaunchScreen.storyboard */; };
 		D83AF1DF1FA8A0DA00D00EC2 /* SIMCodeAlertSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1DE1FA8A0DA00D00EC2 /* SIMCodeAlertSwiftTests.swift */; };
 		D83AF1EA1FA8A0DA00D00EC2 /* SIMCodeAlertSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1E91FA8A0DA00D00EC2 /* SIMCodeAlertSwiftUITests.swift */; };
+		D83AF1F81FA8A19D00D00EC2 /* MZSimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1F71FA8A19D00D00EC2 /* MZSimView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D83AF1E51FA8A0DA00D00EC2 /* SIMCodeAlertSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMCodeAlertSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83AF1E91FA8A0DA00D00EC2 /* SIMCodeAlertSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMCodeAlertSwiftUITests.swift; sourceTree = "<group>"; };
 		D83AF1EB1FA8A0DA00D00EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83AF1F71FA8A19D00D00EC2 /* MZSimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZSimView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D83AF1C81FA8A0DA00D00EC2 /* SIMCodeAlertSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D83AF1F71FA8A19D00D00EC2 /* MZSimView.swift */,
 				D83AF1C91FA8A0DA00D00EC2 /* AppDelegate.swift */,
 				D83AF1CB1FA8A0DA00D00EC2 /* ViewController.swift */,
 				D83AF1CD1FA8A0DA00D00EC2 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83AF1CC1FA8A0DA00D00EC2 /* ViewController.swift in Sources */,
+				D83AF1F81FA8A19D00D00EC2 /* MZSimView.swift in Sources */,
 				D83AF1CA1FA8A0DA00D00EC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
